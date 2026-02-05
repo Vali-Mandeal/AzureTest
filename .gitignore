@@ -58,6 +58,14 @@ publish/
 # macOS
 .DS_Store
 
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+.terraform.lock.hcl
+
 # Windows
 Thumbs.db
 ehthumbs.db
