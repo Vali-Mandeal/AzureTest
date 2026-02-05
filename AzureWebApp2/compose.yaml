@@ -1,0 +1,6 @@
+﻿services:
+  azurewebapp2:
+    image: azurewebapp2
+    build:
+      context: .
+      dockerfile: Dockerfile
